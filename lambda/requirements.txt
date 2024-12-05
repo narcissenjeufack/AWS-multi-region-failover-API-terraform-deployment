@@ -1,0 +1,15 @@
+boto3==1.28.57  # AWS SDK for Python to interact with DynamoDB and other AWS services
+
+
+This is the official AWS SDK for Python, required for interacting with AWS services like DynamoDB, Lambda, and others.
+
+The version 1.28.57 is an example; you can specify the latest compatible version or let it default to the latest by omitting the version number.
+
+Notes:
+If you later extend the Lambda function to include additional libraries (e.g., for data parsing or more complex operations), you can add them to this file.
+To install these dependencies locally for testing you can run the bash code:
+
+pip install -r requirements.txt
+
+
+When deploying this Lambda function, ensure the dependencies are packaged correctly (e.g., using a deployment script or a Lambda layer).
